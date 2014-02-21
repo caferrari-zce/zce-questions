@@ -1,0 +1,17 @@
+{
+    "question": "Using which function is the simplest way to retrieve the information of this user?",
+    "category": "Data Format & Types",
+    "type": "choice",
+    "code": "$data = 'O:8:\"stdClass\":2:{s:2:\"id\";i:123;s:4:\"info\";a:1:{s:4:\"name\";s:5:\"James\";}}';",
+    "alternatives": [
+        "json_decode",
+        "strtok",
+        "json_encode",
+        "sscanf",
+        "unserialize"
+    ],
+    "answer": [
+        4
+    ],
+    "hash": "ad9ace7cf9469ed46570f04169d541f5da5cb778"
+}

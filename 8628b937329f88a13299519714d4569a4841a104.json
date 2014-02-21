@@ -1,0 +1,21 @@
+{
+    "question": "Which of the following are configuration settings for PHP?",
+    "category": "Basics",
+    "type": "choice",
+    "alternatives": [
+        "mysql.allow_persistent",
+        "session.permanent_cache",
+        "error_reporting_enabled",
+        "allow_open_url",
+        "allow_url_include",
+        "set_base_dir",
+        "max_file_downloads",
+        "extension"
+    ],
+    "answer": [
+        0,
+        3,
+        4
+    ],
+    "hash": "fcbe638fa932f43d2e3b44bf42a0529ca5bd6d60"
+}

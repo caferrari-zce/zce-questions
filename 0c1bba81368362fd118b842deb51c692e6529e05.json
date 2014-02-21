@@ -1,0 +1,8 @@
+{
+    "question": "What will be the output of this script?",
+    "category": "Basics",
+    "type": "text",
+    "code": "$arr = array(\r\n    array(\r\n        \"name\"=>\"John\",\r\n        \"surname\"=>\"Smith\"\r\n    ),\r\n    array(\r\n        \"name\"=>\"James\",\r\n        \"surname\"=>\"Smith\"\r\n    ),\r\n    array(\r\n        \"name\"=>\"Jonathan\",\r\n        \"surname\"=>\"Smith\"\r\n    )\r\n);\r\n\r\nfunction printUser($id){\r\n    global $arr;\r\n    foreach($arr as $key => $user) {\r\n        if($id==$key)\r\n            echo $user[\"name\"];\r\n            echo $user[\"surname\"];\r\n           \r\n        }\r\n    }\r\nprintUser(00);",
+    "answer": "JohnSmithSmithSmith",
+    "hash": "913f53fc64fc41d4a09e4492dd33be6952cef88f"
+}

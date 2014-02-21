@@ -1,0 +1,17 @@
+{
+    "question": "What is the output of the following code?",
+    "category": "Object Oriented Programming",
+    "type": "choice",
+    "code": "class MyException extends Exception{}\r\nclass AnotherException extends MyException {}\r\nclass Foo {\r\n    public function something() {\r\n        throw new AnotherException();\r\n    }\r\n    public function somethingElse() {\r\n        throw new MyException();\r\n    }\r\n}\r\n\r\n$a = new Foo();\r\ntry {\r\n    try {\r\n        $a->something();\r\n    } catch(AnotherException $e) {\r\n        $a->somethingElse();\r\n    } catch(AnotherException $e) {\r\n        print \"Cought Exception\";\r\n    }\r\n} catch(Exception $e){\r\n    print \"Didn't catch the Exception!\";\r\n}",
+    "alternatives": [
+        "\"Cought Exception\" followed by \"Didn't catch the Exception!\"",
+        "A fatal error for an uncaught exception",
+        "\"Didn't catch the Exception!\"",
+        "\"Didn't catch the Exception!\" followed by a tatar error",
+        "\"Cought Exception\""
+    ],
+    "answer": [
+        2
+    ],
+    "hash": "4806caed45eeba4577563991e66b0d1a8a8a2cb0"
+}

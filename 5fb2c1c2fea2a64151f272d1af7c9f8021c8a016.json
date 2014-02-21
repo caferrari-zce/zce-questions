@@ -1,0 +1,17 @@
+{
+    "question": "When your error reporting level includes E_STRICT, what will the output of the following code be?",
+    "category": "Basics",
+    "type": "choice",
+    "code": "function optionalParam($x=1, $y=5, $z){\r\n    if((!$z > 0)){\r\n        $z = 1;\r\n    }\r\n    for($count = $x; $count < $y; $count+=$z){\r\n        echo \"#\";\r\n    }\r\n}\r\n\r\noptionalParam(2,4,2);",
+    "alternatives": [
+        "##",
+        "Notice",
+        "Warning",
+        "Syntax Error",
+        "#"
+    ],
+    "answer": [
+        4
+    ],
+    "hash": "7ff23719f5dc89a4a1f7b813463acf7cda590bce"
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What does the following function do, when passed two integer values for $p and $q?",
+    "category": "Basics",
+    "type": "choice",
+    "code": "function magic($p, $q){\r\n    return ($q == 0) ? $p : magic($q, $p % $q);\r\n}",
+    "alternatives": [
+        "Loops infinitely",
+        "Switches the values of $p and $q",
+        "Determines if they are both even or odd",
+        "Determines the greatest common divisor between them",
+        "Calculates the modulus between the two"
+    ],
+    "answer": [
+        0
+    ],
+    "hash": "341e9cf7b25eb9fea64657c6137b4ac9ae81f39c"
+}
