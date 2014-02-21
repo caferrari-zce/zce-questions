@@ -1,0 +1,16 @@
+{
+    "question": "Which of the following affirmations are correct?",
+    "category": "Basics",
+    "type": "choice",
+    "alternatives": [
+        "PHP will throw a fatal error and the script will be terminated",
+        "$var is equal to 0",
+        "$var is equal to FALSE",
+        "$var is equal to 4",
+        "$var is equal to 48"
+    ],
+    "answer": [
+        3
+    ],
+    "hash": "89b994de0d943ec0b1a9ef857dd47c8898e1c1c7"
+}

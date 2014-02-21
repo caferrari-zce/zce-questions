@@ -1,0 +1,17 @@
+{
+    "question": "If we in the namespace 'approot' and want to use the function test() that is in the namespace 'approot\\core\\test', what should we use?",
+    "category": "Basics",
+    "type": "choice",
+    "alternatives": [
+        "We can access the function without any further change because we have access to all namespaces below \"app root\"",
+        "use test",
+        "use core\\test",
+        "use approot\\core\\test",
+        "use core::test::test()",
+        "We can't change the namespace once we have specified one"
+    ],
+    "answer": [
+        3
+    ],
+    "hash": "581cac557785f05a879cf27b8f50b82ff6267da3"
+}
