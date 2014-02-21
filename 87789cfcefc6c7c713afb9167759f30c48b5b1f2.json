@@ -1,0 +1,17 @@
+{
+    "question": "Does the following code accomplish it's purpose?",
+    "category": "Functions",
+    "type": "choice",
+    "code": "function duplicate($obj){\r\n    $newObj = $obj;\r\n    return $newObj;\r\n}\r\n\r\n$a = new MyClass();\r\n$a_copy = duplicate($a);\r\n$a->setValue(10);\r\n$a_copy->setValue(20);",
+    "alternatives": [
+        "Return value have to be &$newObj",
+        "Yes, it does",
+        "duplicate() must accept its parameter by reference (with &)",
+        "You must use the clone operator to make a copy of an object",
+        "duplicate() must return a reference (with & in front of the function name)"
+    ],
+    "answer": [
+        3
+    ],
+    "hash": "a47152a0f72e685488673f73cbf44aebc67561ad"
+}

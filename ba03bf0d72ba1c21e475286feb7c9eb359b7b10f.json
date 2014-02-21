@@ -1,0 +1,20 @@
+{
+    "question": "What will be printed?",
+    "category": "Basics",
+    "type": "choice",
+    "code": "echo (013 + 7 + 0x70) - bindec('010000000');",
+    "alternatives": [
+        "-2",
+        "-1",
+        "0",
+        "1",
+        "2",
+        "129",
+        "130",
+        "An error will be printed"
+    ],
+    "answer": [
+        4
+    ],
+    "hash": "625cd7fac1dc567abee980f45230a66c6d1064e3"
+}
