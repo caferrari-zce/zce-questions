@@ -1,0 +1,15 @@
+{
+    "question": "Suppose a user enters date as 30th February 2013. You want to verify that the user has entered the valid date. Which of the following statements will you use to accomplish the task?",
+    "category": "Functions",
+    "type": "choice",
+    "alternatives": [
+        "echo checkdate(2, 30, 2013) . \"<br \/>\";",
+        "echo checkdate(30, 2, 2013) . \"<br \/>\";",
+        "echo time(2, 30, 2013) . \"<br \/>\";",
+        "echo date_format(2, 30, 2013 . \"<br \/>\";"
+    ],
+    "answer": [
+        0
+    ],
+    "hash": "af9d014d75379b63810cb3b0ea76bc343cd89ee8"
+}

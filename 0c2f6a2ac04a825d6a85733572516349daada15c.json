@@ -1,0 +1,15 @@
+{
+    "question": "You try to run a PHP script but it stops running and receive an error as \"E_CORE_ERROR\". Which of the following describes this error?",
+    "category": "Basics",
+    "type": "choice",
+    "alternatives": [
+        "A fatal error occurred during the PHP engine's startup.",
+        "A fatal error occurred while the script was being compiled.",
+        "A fatal runtime error that can't be recovered from.",
+        "The script couldn't be run because there was a problem parsing it."
+    ],
+    "answer": [
+        0
+    ],
+    "hash": "13b2c1a6cdc413c03f4ca3450528b9ec77868425"
+}

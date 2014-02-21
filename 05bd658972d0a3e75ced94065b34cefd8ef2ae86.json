@@ -2,6 +2,7 @@
     "question": "Which of the following affirmations are correct?",
     "category": "Basics",
     "type": "choice",
+    "code": "$data = 048;\r\n$var = (string) $data;",
     "alternatives": [
         "PHP will throw a fatal error and the script will be terminated",
         "$var is equal to 0",
@@ -12,5 +13,5 @@
     "answer": [
         3
     ],
-    "hash": "89b994de0d943ec0b1a9ef857dd47c8898e1c1c7"
+    "hash": "4817d7d6c3121bf081656e4cd0675029f0275a32"
 }

@@ -1,0 +1,15 @@
+{
+    "question": "Suppose you want to open a file only for writing. If a file with that name does not exist, attempts to create a new file. If the file exists, it places the file pointer at the end of the file after all other data. Which of the following modes will you use?",
+    "category": "I\/O",
+    "type": "choice",
+    "alternatives": [
+        "w",
+        "w+",
+        "a",
+        "a+"
+    ],
+    "answer": [
+        2
+    ],
+    "hash": "a2790cc6eb9fb097d08370b4a61d12474960184e"
+}

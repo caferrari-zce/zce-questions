@@ -1,0 +1,19 @@
+{
+    "question": "Consider the following PHP code segment:",
+    "category": "Object Oriented Programming",
+    "type": "choice",
+    "code": "try{\r\n    $dbh->exec($sql);\r\n} catch (PDOException $exc) {\r\n    \/\/ Display warning message\r\n    $info = $exc->errorInfo;\r\n}",
+    "code_question": "In case of PDOException, $info is set with the contents of the $errorInfo property of the exception. Which of the following accurately describe the contents of  $info?",
+    "alternatives": [
+        "$info[1] is the driver-specific error code",
+        "$info[2] is the driver-specific error message",
+        "$info[1] is the unified error code",
+        "$info[0] is the unified error code"
+    ],
+    "answer": [
+        0,
+        1,
+        3
+    ],
+    "hash": "ea2022ac3d625b175273a5a4410cb09934896227"
+}

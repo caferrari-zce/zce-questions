@@ -1,0 +1,15 @@
+{
+    "question": "Which of the following session functions acts as the alias of session_write_close()?",
+    "category": "Basics",
+    "type": "choice",
+    "alternatives": [
+        "session_encode()",
+        "session_commit()",
+        "session_id()",
+        "session_cache_limiter()"
+    ],
+    "answer": [
+        1
+    ],
+    "hash": "868b139072822f8789e2eb4a097c9fccd41d1551"
+}

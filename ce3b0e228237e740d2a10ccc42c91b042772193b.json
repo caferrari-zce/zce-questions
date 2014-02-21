@@ -1,0 +1,15 @@
+{
+    "question": "Which of the following SPL functions returns the traits used by a given class?",
+    "category": "Object Oriented Programming",
+    "type": "choice",
+    "alternatives": [
+        "spl_autoload_call()",
+        "class_uses()",
+        "iterator_to_array ()",
+        "spl_classes()"
+    ],
+    "answer": [
+        1
+    ],
+    "hash": "8d138514a4f31636ca56a54a9c9781268d29e610"
+}

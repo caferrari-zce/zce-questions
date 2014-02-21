@@ -1,0 +1,17 @@
+{
+    "question": "Which of the following are true regarding cookies?",
+    "category": "Basics",
+    "type": "choice",
+    "alternatives": [
+        "Cookies are text files stored on a client's server.",
+        "The Set-Cookie header that is sent to the client includes a Max-Age attribute.",
+        "A cookie can be set by using the set_cookie() method.",
+        "The set_cookie() method takes maximum 5 parameters.",
+        "PHP transparently supports HTTP cookies."
+    ],
+    "answer": [
+        1,
+        4
+    ],
+    "hash": "2d7b7bf525ac98a74a560eeb5377a1eea954de91"
+}

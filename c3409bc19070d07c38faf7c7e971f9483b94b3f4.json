@@ -1,0 +1,15 @@
+{
+    "question": "Which of the following acts as a mechanism to reuse code in a single inheritance?",
+    "category": "Object Oriented Programming",
+    "type": "choice",
+    "alternatives": [
+        "Traits",
+        "Objects",
+        "Properties",
+        "Methods"
+    ],
+    "answer": [
+        0
+    ],
+    "hash": "6ed952491cd95bd7533197963a17d753e478724c"
+}

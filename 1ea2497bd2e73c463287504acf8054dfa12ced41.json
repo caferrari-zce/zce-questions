@@ -1,0 +1,15 @@
+{
+    "question": "Which of the following statements is NOT true regarding exceptions in PHP?",
+    "category": "Object Oriented Programming",
+    "type": "choice",
+    "alternatives": [
+        "In PHP, an exception can be thrown and caught.",
+        "The thrown object should be an instance of the Exception class or any subclass of Exception.",
+        "Every try block must have at least one corresponding catch block.",
+        "The finally block specified before the catch block always executes."
+    ],
+    "answer": [
+        3
+    ],
+    "hash": "20bedc4753a50c8f6be26169bedae4e8211edf7a"
+}

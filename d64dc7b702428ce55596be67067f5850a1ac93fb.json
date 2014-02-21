@@ -1,8 +1,8 @@
 {
     "question": "Fill in the blank with the appropriate function name. Do not add parenthesis.",
-    "category": "Functions",
+    "category": "Basics",
     "type": "fill",
     "phrase": "The __________() function is used to set a cookie to be sent along with the rest of the HTTP headers.",
     "answer": "setcookie",
-    "hash": "a991e062f7ca7d4d1ae202af958d0bc637ed1055"
+    "hash": "d6dd64e653baa2f2f123c59f70bdc20a5eed428a"
 }
